@@ -19,3 +19,9 @@ gpa = 5.75
 distance = 100.5
 print(f"The price is {price} and the quantity is {quantity}")
 print(f"{first_name} {last_name} is {age} years old and has a GPA of {gpa}")
+
+# Boolean
+is_student = True
+is_employed = False
+
+print(f"Is {first_name} a student? {is_student}")
