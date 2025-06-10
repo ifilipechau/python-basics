@@ -11,7 +11,18 @@ age = 21
 gpa = 4.9
 student = True
 
-print(type(name))
-print(type(age))
-print(type(gpa))
-print(type(student))
+age = float(age) # Explicitly converting age to float
+gpa = int(gpa) # Explicitly converting gpa to int
+
+#print(type(name))
+#print(type(age))
+#print(type(gpa))
+#print(type(student))
+
+# Example of Implicit Typecasting
+
+num1 = 10
+num2 = 20.5
+
+result = num1 + num2 # Implicitly converting num1 to float
+print(result)
