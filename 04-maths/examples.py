@@ -21,7 +21,7 @@ friends = 0
 # friends = friends ** 2
 # friends **= 2
 
-# Modulus
+# Modulus ou remainder
 # friends = friends % 3
 # friends %= 3
 
