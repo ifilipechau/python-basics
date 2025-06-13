@@ -8,7 +8,7 @@ if age >= 18:
 else:
     print('You must be 18+ to sign up!')
 
-'''
+
 
 name = input("Enter your name: ")
 
@@ -16,3 +16,14 @@ if name == "":
     print("You didn't enter a name!")
 else:
     print(f"Hello {name}!")
+
+'''
+
+# Use boolean expressions with if statements
+
+is_raining = True
+
+if is_raining:
+    print("Take an umbrella!")
+else:
+    print("No umbrella needed!")

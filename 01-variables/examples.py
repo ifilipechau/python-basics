@@ -1,6 +1,4 @@
-# Variables 
-
-
+# Variables types in python
 
 # Strings
 first_name = "Filipe"
@@ -17,12 +15,19 @@ quantity = 4
 price = 17.50
 gpa = 10.75
 distance = 100.5
-print(f"The price is {price} MZN and the quantity is {quantity}")
-print(f"{first_name} {last_name} is {age} years old and has a GPA of {gpa}")
+#print(f"The price is {price} MZN and the quantity is {quantity}")
+#print(f"{first_name} {last_name} is {age} years old and has a GPA of {gpa}")
 
 # Boolean
 is_student = False
 is_employed = True
 
-print(f"Is {first_name} a student? {is_student}")
-print(f"Is {first_name} employed? {is_employed}")
+#print(f"Is {first_name} a student? {is_student}")
+#print(f"Is {first_name} employed? {is_employed}")
+
+for_sale = True
+
+if for_sale:
+    print("This item is for sale.")
+else:
+    print("This item is not for sale.")
