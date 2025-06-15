@@ -10,4 +10,12 @@ while principal <= 0:
     if principal <= 0:
         print("Principal can't be less than or equal to zero")
 
-print(principal)
+while rate <= 0:
+    rate = float(input("Enter the interest rate: "))
+    if rate <= 0:
+        print("Interest rate can't be less than or equal to zero")
+
+while time <= 0:
+    time = int(input("Enter time in years: "))
+    if time <= 0:
+        print("Time can't be less than or equal to zero")
