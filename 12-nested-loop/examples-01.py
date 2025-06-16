@@ -6,5 +6,5 @@ symbol = input("Enter symbol to use: ")
 
 for x in range(rows):
     for y in range(column):
-        print(symbol, end="")
+        print(symbol, end="") # end parameter prevents new line after each print
     print() # New line after inner loop completes 
