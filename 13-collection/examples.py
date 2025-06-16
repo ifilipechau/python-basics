@@ -4,6 +4,10 @@
 #   Tuple = () ordered and unchangeale. Duplicates OK. FASTER
 
 fruits = ["apple", "orange", "banana", "coconut"]
+# print(dir(fruits)) # we use dir() to see the methods available for the list
+# print(help(fruits)) # we use help() to see the documentation for the list methods
+print(len(fruits)) # returns the number of items in the list
+
 
 # print(fruits[0:3]) # we use slicing to get a range of values
 # print(fruits[0:]) # we can also use slicing to get all values
