@@ -7,4 +7,4 @@ num_pad = ((1, 2, 3),
 
 for row in num_pad:
     for num in row:
-        print(num)
+        print(num, end= " ")
