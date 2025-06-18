@@ -10,12 +10,13 @@ meats = ["chicken", "beef", "pork", "fish"]
 
 groceries = [fruits, vegetables, meats]
 
-print(groceries[2][2]) # Output: pork
-print(groceries[0][1]) # Output: Orange
-print(groceries[1][2]) # Output: spinach
+# print(groceries[2][2]) # Output: pork
+# print(groceries[0][1]) # Output: Orange
+# print(groceries[1][2]) # Output: spinach
 
 
 # Looping through a 2D list
 for colletion in groceries:
     for food in colletion:
-        print(food)
+        print(food, end= " ")
+    print()
