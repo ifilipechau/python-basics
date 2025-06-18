@@ -20,6 +20,7 @@ for food in foods:
 
 for price in prices:
     total += price
-
+    
+print()
 print(f"Your total is: MZN{total:.2f}")
 print("Thank you for shopping with us!")
