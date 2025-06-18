@@ -22,4 +22,5 @@ for question in questions:
     for option in options[question_num]:
         print(option)
 
+    guess = input("Enter (A, B, C, D): ").upper()
     question_num += 1
