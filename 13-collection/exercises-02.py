@@ -1,4 +1,4 @@
-#
+# Create a pad numbers just like the ones we have in our smartphones
 
 num_pad = ((1, 2, 3),
            (4, 5, 6),
