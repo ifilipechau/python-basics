@@ -5,3 +5,7 @@ capitals = {"USA": "Washington D.C.",
             "India": "New Delhi",
             "China": "Beijing",
             "Russia": "Moscow"}
+
+
+print(dir(capitals)) # to see all the methods and attributes of the dictionary
+print(help(capitals))
