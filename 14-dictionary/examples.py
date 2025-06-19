@@ -8,4 +8,6 @@ capitals = {"USA": "Washington D.C.",
 
 
 print(dir(capitals)) # to see all the methods and attributes of the dictionary
-print(help(capitals))
+print(help(capitals)) # To see all the descriptions of the attributes and methods
+
+print(capitals.get("USA"))
