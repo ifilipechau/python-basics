@@ -16,10 +16,10 @@ guesses = [] # list of guesses
 score = 0
 question_num = 0
 
-for question in questions:
+for question in questions: # take each question in questions tuple
     print("-----------------------------------------")
     print(question)
-    for option in options[question_num]:
+    for option in options[question_num]: # take each option value in the options tuple
         print(option)
 
     guess = input("Enter (A, B, C, D): ").upper()
