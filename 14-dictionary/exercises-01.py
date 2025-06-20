@@ -12,5 +12,12 @@ menu = {"pizza": 3.00,
 cart = []
 total = 0
 
+print("------------- MENU ----------------")
 for key, value in menu.items():
     print(f"{key:10}: {value:.2f} MZN")
+print("-----------------------------------")
+
+while True:
+    food = input("Select an item (q to quit): ")
+    if food == 'q':
+        break
