@@ -11,3 +11,6 @@ menu = {"pizza": 3.00,
         }
 cart = []
 total = 0
+
+for key, values in menu.items():
+    print(f"{key}: {value: }")
