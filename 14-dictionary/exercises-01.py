@@ -13,4 +13,4 @@ cart = []
 total = 0
 
 for key, values in menu.items():
-    print(f"{key}: {value: }")
+    print(f"{key}: MZN{value: .2f}")
