@@ -8,7 +8,7 @@ is_running = True
 
 
 
-while is_runnig:
+while is_running:
 
     player = None
     computer = random.choice(options)
