@@ -30,4 +30,8 @@ while is_runnig:
     else:
         print("You Lose!")
 
-    play_again = input("Play again? ")
+    play_again = input("Play again? (y/n): ").lower()
+    if not play_again == "y":
+        is_running = False
+
+print("Thanks for playing!")
