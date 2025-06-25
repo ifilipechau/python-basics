@@ -46,3 +46,9 @@ dice_art = {1:("┌─────────┐",
 dice = []
 total = 0
 num_of_dice = int(input(("How many dice?: ")))
+
+for die in range(num_of_dice):
+    roll = random.randint(1, 6)
+    dice.append(roll)
+    total += roll
+    print(dice_art(roll))
